@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>WebSchool4You</title>
+    <link rel="stylesheet" href="/Users/mahsam/Desktop/Website/Forum/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+
+      <nav>
+        <a href="index.html"><img src="/Users/mahsam/Desktop/Website/Images/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="programmingLanguages.html ">Programming Languages</a></li>
+            <li><a href="revision.html">Revision</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <!-- Title -->
+
+      <h1>Forum</h1>
+      <a href="/Users/mahsam/Desktop/Website/index.html" class="hero-btn">Home Page</a>
+    </section>
+        <h1>Forum Page</h1>
+        <p>A forum page to increase social inetegration, click on a dicsussion to view.</p>
+    <div class="main">
+        <ol>
+        </ol>
+    </div>
+    <script src="/Users/mahsam/Desktop/Website/Forum/data.js"></script>
+    <script src="/Users/mahsam/Desktop/Website/Forum/forum.js"></script>
+
+
+
+<section class="footer">
+<h4> About Us </h4>
+  <p>WebSchool4You strives to meet the needs of all sorts of learners. We want you to have the finest learning experience possible, therefore we do everything we can to suit your requirements. We are a young team that recognises the
+    <br> current challenges with e-learning and we have attempted to address them. We want you to be able to work at your own speed while still having fun. If you have any recommendations for how to enhance this website, please email us
+    <br> or fill out a potential improvement form.</p>
+  <div class="icons">
+  </div>
+  <p>Made by Mahsam Sajjad, Copyright 2022</p>
+</section>
+
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+
+</html>

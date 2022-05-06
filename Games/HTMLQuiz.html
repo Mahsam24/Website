@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebSchool4You</title>
+    <link rel="stylesheet" href="/Users/mahsam/Desktop/Website/Games/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  </head>
+  <body>
+    <section class="sub-header">
+
+      <nav>
+        <a href="index.html"><img src="/Users/mahsam/Desktop/Website/Images/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/Users/mahsam/Desktop/Website/index.html">Home</a></li>
+            <li><a href="/Users/mahsam/Desktop/Website/programmingLanguages.html">Programming Languages</a></li>
+            <li><a href="/Users/mahsam/Desktop/Website/revision.html">Revision</a></li>
+            <li><a href="/Users/mahsam/Desktop/Website/games.html">Games</a></li>
+            <li><a href="/Users/mahsam/Desktop/Website/contactUs.html">Contact Us</a></li>
+            <li><a href="/Users/mahsam/Desktop/Website/aboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>HTML Quiz</h1>
+    </section>
+
+<!-- HTML Quiz -->
+<!-- start Quiz button -->
+<div class="HTML Quiz">
+
+<div class="start_btn"><button>Start HTML Quiz</button></div>
+<link rel="stylesheet" href="/Users/mahsam/Desktop/Website/Games/quiz1.css">
+
+<!-- Info Box -->
+<div class="info_box">
+    <div class="info-title"><span>Some Rules of this Quiz</span></div>
+    <div class="info-list">
+        <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+        <div class="info">2. Once you select your answer, it can't be undone.</div>
+        <div class="info">3. You can't select any option once time goes off.</div>
+        <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+        <div class="info">5. You'll get points on the basis of your correct answers.</div>
+    </div>
+    <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+
+<!-- Quiz Box -->
+<div class="quiz_box">
+    <header>
+        <div class="title">Awesome Quiz Application</div>
+        <div class="timer">
+            <div class="time_left_txt">Time Left</div>
+            <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text">
+            <!-- Here I've inserted question from JavaScript -->
+        </div>
+        <div class="option_list">
+            <!-- Here I've inserted options from JavaScript -->
+        </div>
+    </section>
+
+    <!-- footer of Quiz Box -->
+    <footer>
+        <div class="total_que">
+            <!-- Here I've inserted Question Count Number from JavaScript -->
+        </div>
+        <button class="next_btn">Next Question</button>
+    </footer>
+</div>
+
+<!-- Result Box -->
+<div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+        <!-- Here I've inserted Score Result from JavaScript -->
+    </div>
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+    </div>
+</div>
+
+<!-- Inside this JavaScript file I've inserted Questions and Options only -->
+<script src="/Users/mahsam/Desktop/Website/Games/questions.js"></script>
+
+<!-- Inside this JavaScript file I've coded all Quiz Codes -->
+<script src="/Users/mahsam/Desktop/Website/Games/script.js"></script>
+</div>
+
+<div class="bck_btn">
+<a href="/Users/mahsam/Desktop/Website/Games.html"><button>Return to Games Page</button></a>
+</div>
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+  </body>
+</html>
