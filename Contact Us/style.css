@@ -6,7 +6,7 @@
 .sub-header {
   height: 50vh;
   width: 100%;
-  background-image:linear-gradient(rgba(1, 2, 5, 0.1),rgba(1, 5, 25, 0.8)),url(/Users/mahsam/Desktop/Website/Images/contactUs.jpg);
+  background-image:linear-gradient(rgba(1, 2, 5, 0.1),rgba(1, 5, 25, 0.8)),url(../Images/contactUs.jpg);
   background-position: center;
   opacity: 100%;
   background-size: cover;

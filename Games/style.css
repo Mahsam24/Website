@@ -6,7 +6,7 @@
 .sub-header {
   height: 50vh;
   width: 100%;
-  background-image:linear-gradient(rgba(1, 2, 5, 0.1),rgba(1, 5, 25, 0.8)),url(/Users/mahsam/Desktop/Website/Images/games.png);
+  background-image:linear-gradient(rgba(1, 2, 5, 0.1),rgba(1, 5, 25, 0.8)),url(../Images/games.png);
   background-position: center;
   opacity: 100%;
   background-size: cover;
@@ -254,7 +254,7 @@ h2{
   border-radius: 10px;
   width: 92%;
   height: 75%;
-  text-align: left;
+  text-align: center;
   margin-left: 4%;
   resize: vertical;
 }
@@ -272,7 +272,7 @@ h2{
   border-radius: 10px;
   width: 92%;
   height: 75%;
-  text-align: left;
+  text-align: center;
   margin-left: 4%;
   resize: vertical;
 }
@@ -290,7 +290,7 @@ h2{
   border-radius: 10px;
   width: 92%;
   height: 75%;
-  text-align: left;
+  text-align: center;
   margin-left: 4%;
   resize: vertical;
 }
